@@ -1,0 +1,59 @@
+<html>
+
+<head> 
+
+<title>Music and Art</title>
+<STYLE>
+    H1 { color: green }
+
+    H1 {font-family: arial; text-align: center;} 
+    H2 {font-family: arial} 
+    H2 { Color: red   }
+    H6
+     p { color: Black }
+     p { font-size: 115% ; }
+     p { background-color: orange = #ffa500 = rgb(255,165,0)}
+     P {font-style: center;}
+     A, h4, P, IMG { color: Black; font-size: 115%; text-align: center;}
+
+     .tst1 {font-family: arial; text-align: center; }
+     .tst2 {padding: 20px; background-color: orange; border: medium solid red;
+          border-style: inset; }
+     .tst3 { text-align: left; font-size: 125%;}
+    BODY {margin-left: 1cm} 
+    
+  </STYLE>
+</head>
+
+<body>
+
+<H6 class="tst1">TEST</H6>
+
+<BODY BGCOLOR="66CCCC"BACKGROUND="images/old-grunge-vector-background.jpg">
+
+<h1>Music and Art for the revolution</h1>
+
+<p> Here I share music and art that inspires the soul, 
+makes the body move, makes you laugh, calms the nerves, tickles the intellect and/or makes you want to throw a rock into a 
+cop's face. I will also use it to shamelessly promote my own and music and my friends. I will be updating about any gigs or concerts I attend. </p> 
+
+<p><H4 class="tst3">Here is a band I like</H4></p>
+
+<p>They are from .... they are cool because ... You should listen to them because ...
+Here is a video of them </p>
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/ehu3wy4WkHs" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Enjoy the brains</h2>
+<IMG class="tst2"SRC="images/braindeadratmonkey.jpg" ALT="Enjoy" WIDTH=332 HEIGHT=332>
+<h4><A HREF="https://www.facebook.com/tgarrity">Click for my facebook page like the voyeuristic little faggots you are</A></h4>
+ 
+
+
+
+
+
+
+</body>
+</html>
