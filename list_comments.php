@@ -11,16 +11,16 @@ if (!$link)  {
     die ('could not connect : ' . mysql_error ()) ;
 }
 
-mysql_select_db ('DB_NAME');
+mysql_select_db (DB_NAME);
 
 if(!'database_selected') {
     die('Could not connect: ' . mysql_error());
 }
 echo 'Connected successfully to the database';
 
-$sqlquery = mysql_query ("SELECT * FROM  comments.commentform ORDER BY id DESC");
+$sqlquery = mysql_query("SELECT * FROM  comments.commentform ORDER BY id DESC");
 
-while ($rows = mysql_fetch_assoc($sqlquery));
+while ($rows = mysql_fetch_assoc($sqlquery))
 {
     $id=$rows ['id'];
     $name=$rows ['name'];
