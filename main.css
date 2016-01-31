@@ -1,82 +1,139 @@
-<html>
 
-<head>
-	<div class="nav">
-      <ul>
-        <li class="home"><a href="index.html">Home</a></li>
-        <li class="musicandart"><a href="musicandart.html">Music and Art</a></li>
-        <li class="Travels"><a href="#">Travels</a></li>
-        <li class="A better World"><a href="#">A better World</a></li>
-        <li class="Teach and Learn"><a href="#">Teach and Learn</a></li>
-        <li class="Marketplace"><a href="#">Marketplace</a></li>
-        <li class="contact"><a href="#">Contact</a></li>
-        <li class="About"><a href="about.html">About</a></li>
-      </ul>
-    </div>
+h1 { color: #500B0B; 
+  font-family: arial; 
+  text-align: center; 
+  border: solid; 
+  background-color: #BB6F00;
+  font-size: 225%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 5px;
+  margin-top: 0px;
 
-    <title>Adventures, learnings and irregular thoughts from Trevor</title>
+}
+h2 { font-family: arial; 
+  color: #F00C0C; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  border-radius: 20px;
+  padding: 5px
+}
+h4 {text-align: center; font-size: 125%; color: rgba(113, 7, 7, 0.95); 
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
+  border-radius: 20px;
+  width: inherit;
 
-    <link rel="stylesheet" href="main.css">
+}
+p {
+    font-family: times;
+    color: #500B0B;
+    font-size: 115%;
+    font-style: center; 
+    font-weight: 0%; 
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
 
-</head>
+}
+iframe { position: center; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+a  {color: #500B0B; 
+}
 
-<h1>Adventures, learnings and irregular thoughts from Trev</h1>
-<body>
-	
-<p>On this page you will find updates on the various topics featured on this site. <p> To learn what this site is about, how to use it and how it can be useful to you.</p>
-<p>Go here</p> 
-<em>I hope you enjoy and share your thoughts with me.</em>Trevor</p>
+body {
+      margin: 0;
+      padding: 0;
+      background: #BB6F00; <--- sets back text ---> 
+    }
 
+.nav ul {
+      list-style: inside;
+      
+      text-align: center;
+      padding-top: 10px;
+      
+      border: none;
+      background-color: none; opacity: 0.8;
+      margin: none;
+      padding-bottom: 0px;
+      
+      
+       
+      
+      
+    }
+    
+ .nav li {
+      font-family: 'Oswald', sans-serif;
+      font-size: 110%;
+      line-height: 20px;
+      height: 40px;
+      border: 0px solid #888;
+      line-height: 40px;
+      padding: 5px;
+      border-collapse: inherit;
+      text-align: center;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
+      border-radius: 20px;
+      position: center;
+    }
 
-<article class=articleform>
-  <header>
-    <H4 class="tst3">Presenting the Jingles</H4>
-  </header>
+    .nav li {
+      display: inline-block;
+    }
+    .nav a {
+      text-decoration: none;
+      color: inherit;
+    }
+    .nav a:hover {
+      background-color: #005f5f;
+    }
+    a.active {
+      background-color: #fff;
+      color: #444;
+    }
 
-  
-  <p>Published: <time pubdate="pubdate">18th Jan 2016</time></p>
+.tst1 {font-family: arial; text-align: center; font-size: 125%;}
+.tst2 {
+    padding: 10px; 
+    background-color: none; 
+    border: rgba(113, 7, 7, 0.95);
+    border-style: inset; border-radius: 10px ; 
+}
+ .tst3 
+ {  padding: 10px; 
+    background-color: none; 
+    border: rgba(113, 7, 7, 0.95);
+    border-style: inset; border-radius: 10px ; 
+    position: relative; left: 750px;
+    
 
-<p>They are from Estonia.... they are cool because ... You should listen to them because ...
-Here is a video of them </p>
-  <iframe width="640" height="360" src="https://www.youtube.com/embed/KhKxSyt1HkA" frameborder="0" allowfullscreen></iframe>
-  ...
-  <footer>
-    <p><p><A HREF="JINGLES LINK">Clickeyty click for more Jingles</A></p></p>
-    <p><A HREF="JINGLES LINK">Clickeyty click for more Music and art</A></p>
+}
+.fuckagoat {
+    background-color: orange;
+    color: black;
+    font-size: 150%;
+}
+.articleform { background-color: #F8F8F8;
+    padding: 20px;
+    border: 5px solid #008000 ; 
+    border-color: rgba(113, 7, 7, 0.95); 
+    border-style: inset; 
+    border-radius: 10px;
+    margin: 10px; 
+    font: black;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
 
-<div class="comment-form">
-            <h2 class="comments-wrapper-heading"> Leave a comment </h2>
-            <form id="commentform" action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
-              <div class="commentform-element">
-                <label class="hide" for="author">Full Name</label><br>
-                <input class="input-fields" id="author" name="author" type="text" placeholder="Full Name" value=""/>
-              </div>
-              <div class="commentform-element">
-                <label class="hide" for="author">Email</label><br>
-                <input class="input-fields" id="email" name="email" type="text" placeholder="Email" value=""/>
-              </div>
-              <div class="commentform-element">
-                <label class="hide" for="comment">Message</label><br>
-                <textarea id="comment" class="input-fields" placeholder="Message" name="comment" cols="40" rows="2"></textarea>
-              </div>
-              <input name="submit" class="form-submit-button"  type="submit" id="submit-comment" value="Post comment">
-              <input type="hidden" name="comment_post_ID" value="22" id="comment_post_ID">
-            <input type="hidden" name="comment_parent" id="comment_parent" value="0">
-            </form>
- </div>
+}
+body { background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-image:  url("images/old-grunge-vector-background.jpg");
+  margin-left: 1cm; margin-right: 1cm;
 
+  { 
 
-
-</form>
-</div>
-
-  </footer>
-</article>
-
-<h2 class="tst2">Enjoy the brains</h2>
-<IMG class="tst2" SRC="images/braindeadratmonkey.jpg" ALT="Enjoy" WIDTH=332 HEIGHT=332>
-
-<h4><A HREF="https://www.facebook.com/tgarrity">Click for my facebook page like a good little voyeur</A></h4>
-
-</body>
-</html>
+    border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 15px;
